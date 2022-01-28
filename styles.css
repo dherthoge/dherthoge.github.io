@@ -169,6 +169,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
+
 }
 
 .coursework .coursework-content ul {
@@ -179,16 +181,20 @@
     padding-bottom: 20px;
 }
 
+.coursework .large-br {
+    display: block;
+    content: "";
+    margin-top: 20px;
+}
+
+.coursework .small-br {
+    display: block;
+    content: "";
+    margin-top: 2px;
+}
 
 
 /* responsive queries*/
-@media (max-width: 1104px) {
-    /*.about .about-content .left img {*/
-    /*    height: 350px;*/
-    /*    width: 350px;*/
-    /*}*/
-}
-
 @media (max-width: 1200px) {
     .max-width {
         max-width: 800px;
