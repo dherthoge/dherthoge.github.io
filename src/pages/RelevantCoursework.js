@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function RelevantCoursework() {
   return (
     <div>RelevantCoursework</div>
-  )
+  );
 }
 
-export default RelevantCoursework
+export default RelevantCoursework;
