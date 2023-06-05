@@ -22,10 +22,10 @@ function Navbar() {
         </button>
       </div>
 
-      <div className="links">
-        <div><Link to="/"> Home </Link></div>
-        <div><Link to="/resume"> Resume </Link></div>
-        <div><Link to="/relevantCoursework"> Relevant Coursework </Link></div>
+      <div className="navLinks">
+        <div className="navLink"><Link to="/"> <p className="navLinkText">Home</p> </Link></div>
+        <div className="navLink"><Link to="/resume"> <p className="navLinkText">Resume</p> </Link></div>
+        <div className="navLink"><Link to="/relevantCoursework"> <p className="navLinkText">Relevant Coursework</p> </Link></div>
       </div>
     </div>
   )
