@@ -4,9 +4,9 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./pages/About.js"
-import Resume from "./pages/Resume.js"
-import RelevantCoursework from "./pages/RelevantCoursework.js"
+import About from "./pages/About.js";
+import Resume from "./pages/Resume.js";
+import RelevantCoursework from "./pages/RelevantCoursework.js";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
