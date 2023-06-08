@@ -14,13 +14,17 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<About />}/>
-          <Route path="/resume" element={<Resume />}/>
-          <Route path="/relevantCoursework" element={<RelevantCoursework />}/>
-        </Routes>
-        <Footer />
+        <div className="appContent">
+          <div className="navAndBody"> {/*just used for making content display properly on tall screents*/}
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<About />}/>
+              <Route path="/resume" element={<Resume />}/>
+              <Route path="/relevantCoursework" element={<RelevantCoursework />}/>
+            </Routes>
+          </div>
+          <Footer />
+        </div>
       </Router>
     </div>
   );

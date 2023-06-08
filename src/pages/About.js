@@ -3,8 +3,8 @@ import "../styles/About.css"
 
 function About() {
   return (
-    <div class="about">
-      <h2 class="title">About Me</h2>
+    <div className="about">
+      <h2 className="title">About Me</h2>
       <div className="body">
         <img className="profilePicture bodyBlock" src={require("../images/profile_picture.jpg")} alt="Me in a suit."/>
         <div className="bio bodyBlock">

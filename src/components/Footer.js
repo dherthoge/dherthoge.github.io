@@ -6,10 +6,10 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Footer() {
   return (
     <div className="footer">
-        <div className="socialMedia">
-            <GitHubIcon />
-            <LinkedInIcon />
-        </div>
+      <div className="socialMedia">
+        <a href="https://www.linkedin.com/in/dherthoge/"><LinkedInIcon /></a>
+        <a href="https://github.com/dherthoge"><GitHubIcon /></a>
+      </div>
     </div>
   )
 }

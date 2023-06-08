@@ -3,30 +3,19 @@
   font-size: 60px;
   font-weight: 500;
   margin-top: 20px;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 0px;
 }
 
-.profilePicture {
-  width: 40%;
-  object-fit: cover;
-}
-
-.body {
+.content {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 30px;
 }
 
-.bio {
-  width: 40%;
-}
-
-.bodyBlock {
-  padding: 2%;
-}
-
-.socialLinks a {
+.content a {
   width: 170px;
   align-self: center;
   background: #980420;
@@ -36,23 +25,14 @@
   text-decoration: none;
   text-align: center;
   padding: 10px 20px;
-  margin-top: 20px;
   border-radius: 10px;
   border: 2px solid #980420;
   transition: all 0.3s ease;
 }
 
-.socialLinks a:hover {
-  color: #980420;
-  background: none;
-}
-
-.socialLinks {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: flex-start
+.resumePicture {
+  max-width: 1000px;
+  width: 90%;
 }
 
 @media only screen and (max-width: 1000px) {
