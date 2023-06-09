@@ -10,12 +10,11 @@ function About() {
         <div className="bio bodyBlock">
           <h1>Hello!</h1>
           <p>
-            My name is Dylan Herthoge and I am a recent graduate of Indiana University Bloomington where I 
-            received my Bachelor of Science in Computer Science with a specialization in Software
-            Engineering. While I finish my last few months in Bloomington I am working at Harbor Freight Tools as
-            a sales associate; currently I'm looking to start full time in a Software Engineering related
-            field by the end of the summer! In my free time I enjoy hiking, biking, and most recently rock climing
-            (too many Ultimate Frisbee injuries)!
+          My name is Dylan Herthoge and I am a recent graduate of Indiana University Bloomington where I graduated with 
+          high honors as I received my Bachelor of Science in Computer Science with a specialization in Software 
+          Engineering. While I finish my last few months in Bloomington, I am working at Harbor Freight Tools as a 
+          Sales Associate. Currently, I'm looking to start full time in a Software Engineering related field by the 
+          end of the summer! In my free time, I enjoy hiking, biking, ultimate frisbee, and most recently rock climbing.
           </p>
 
           <div className="socialLinks">
