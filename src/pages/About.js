@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "../styles/About.css";
 
 function About() {
@@ -19,7 +19,7 @@ function About() {
           </p>
 
           <div className="socialLinks">
-            <a href="images/Resume%20of%20Dylan%20Herthoge.pdf" download="Resume of Dylan Herthoge.pdf">Download Resume</a>
+            <a href={require("../images/resume.jpg")} download="Resume of Dylan Herthoge.jpg">Download Resume</a>
             <a href="https://www.linkedin.com/in/dherthoge/">LinkedIn</a>
             <a href="https://github.com/dherthoge">Github</a>
           </div>
