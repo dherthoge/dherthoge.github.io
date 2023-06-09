@@ -1,6 +1,7 @@
 {
   "name": "dherthoge.github.io",
   "version": "0.1.0",
+  "homepage": "https://dherthoge.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
@@ -12,6 +13,7 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "add": "^2.0.6",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pdf": "^7.0.3",
@@ -21,6 +23,8 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
