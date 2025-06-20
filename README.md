@@ -1,1 +1,1 @@
-This website initially started out as plain html and css; I decided to remake it in React because I had some extra time and I wanted to make the site resize properly across various screen sizes.
+
